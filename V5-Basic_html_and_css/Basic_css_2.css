@@ -1,0 +1,11 @@
+P {
+	color: blue;
+	background-color: yellow;
+	font-size: roboto;
+	font-weight: 900;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 2px 2px green;
+}
