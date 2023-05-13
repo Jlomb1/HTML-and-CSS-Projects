@@ -4,22 +4,90 @@
 			<title>The Axolotl</title>
 			<meta charset="utf-8">
 			<link rel="stylesheet" href="./css/one_page_website.css">
+			<script src="js/one_page_website.js"></script>
 		</head>
 		<body>
 			
 			<!-- NAV -->
 			<nav>
 				<a href="#contact">Join The Club</a> |
-				<a href="#contact us">Contact Us</a>
+				<a href="#contactus">Contact Us</a>
 			</nav>
 			<!-- END NAV -->
 			
 			<!-- Main -->
-			<main>
-				<h1>The Axolotl</h1>
-					<img src="Images/Axolotl.png" alt="axolotl looking at camera" class ="image" style="width:500px;height:400px;">
-				<h3>What is this animal, and why is it so important?</h3>
-			</main>
+			<h1>The Axolotl</h1>
+			<div class="row">
+
+				<div class="column">
+					<img src="Images/Axolotl.png" alt="axolotl looking at camera" class ="image" style="width:350px;height:250px;" onclick="openModal();currentSlide(1)">
+				</div>
+				<div class="column">
+					<img src="Images/Axolotl2.jpg" alt="axolotl looking at camera" class ="image" style="width:350px;height:250px;" onclick="openModal();currentSlide(2)">
+				</div>
+				<div class="column">
+					<img src="Images/Axolotl3.jpg" alt="axolotl looking at camera" class ="image" style="width:350px;height:250px;" onclick="openModal();currentSlide(3)">
+				</div>
+				<div class="column">
+					<img src="Images/Axolotl4.png" alt="axolotl looking at camera" class ="image" style="width:350px;height:250px;" onclick="openModal();currentSlide(4)">
+				</div>
+
+			</div>
+
+			<!-- Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+			
+				<div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="Images/Axolotl.png" style="width:1200px;height:580px;">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="Images/Axolotl2.jpg" style="width:1200px;height:580px;">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="Images/Axolotl3.jpg" style="width:1200px;height:580px;">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">4 / 4</div>
+					<img src="Images/Axolotl4.png" style="width:1200px;height:580px;">
+				</div>
+			
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+				<!-- Caption text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+			
+				<!-- Thumbnail image controls -->
+				<div class="column">
+					<img class="demo" src="Images/Axolotl.png" onclick="currentSlide(1)" alt="Happy axolotl">
+				</div>
+			
+				<div class="column">
+					<img class="demo" src="Images/Axolotl2.jpg" onclick="currentSlide(2)" alt="Curious axolotl">
+				</div>
+			
+				<div class="column">
+					<img class="demo" src="Images/Axolotl3.jpg" onclick="currentSlide(3)" alt="Colorful axolotl">
+				</div>
+			
+				<div class="column">
+					<img class="demo" src="Images/Axolotl4.png" onclick="currentSlide(4)" alt="Baby axolotl">
+				</div>
+				</div>
+			</div>
+
+			<h3>What is this animal, and why is it so important?</h3>
 			<!-- END MAIN -->
 			
 			<!-- Info on subject -->
