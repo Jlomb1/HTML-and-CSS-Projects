@@ -1,0 +1,228 @@
+/*---------- RANDOM OTHERS ----------*/
+body {
+    background-color: lavender;
+}
+
+.site-link {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hover-exp {
+    color: pink;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        background-color:red;
+    }
+}
+
+/*---------- END RANDOM OTHERS ----------*/
+
+/*---------- ROLLER COASTER IMAGE ----------*/
+.rollercoaster-info {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin: auto;
+}
+
+.container:hover .rollercoaster-info {
+    opacity: 0.3;
+}
+
+.container:hover .middletext {
+    opacity: 1;
+}
+
+.middletext {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    background-color: lightblue;
+    color: black;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 16px 32px;
+}
+/*---------- END ROLLER COASTER IMAGE ----------*/
+
+/*---------- MAIN IMAGE ----------*/
+.main-image {
+    display: block;
+    border-radius: 8%;
+    width: 100.1%;
+    height: 495px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 42px;
+    padding-bottom: 20px;
+    -webkit-filter: saturate(-2%);
+    filter: saturate(-2%);
+}
+
+.image-text {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    padding-bottom: 213px;
+}
+/*---------- MAIN IMAGE ----------*/
+
+/*---------- NAV BAR ----------*/
+.navbar {
+    overflow: hidden;
+    background-color: royalblue;
+    position: fixed; /* could be absolute*/
+    top: 0;
+    width: 99.2%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: blue;
+    color: black;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 30px;
+}
+/*---------- END NAV BAR ----------*/
+
+/*---------- ABOUT / PRICING TABLE ----------*/
+.table, th, td {
+    border: 1px royalblue;
+    border-style: solid;
+    width: 62%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+tr:hover {
+    background-color: royalblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+th {
+    background-color: royalblue;
+    color: whitesmoke;
+}
+/*---------- END ABOUT / PRICING TABLE ----------*/
+
+/*----------LOOPED SHORT VIDS ----------*/
+.medialoop, h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 32px;
+}
+
+.main-vid2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 42px;
+    padding-bottom: 20px;
+    -webkit-filter: saturate(-2%);
+    filter: saturate(-2%);
+}
+
+.vid-text2 {
+    position: relative;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: darkmagenta;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center-text2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    padding-bottom: 213px;
+}
+/*---------- END LOOPED SHORT VIDS ----------*/
+
+/*---------- COLUMN TEMPLATE ----------*/
+.column {
+    box-sizing: border-box;
+    border: 2px solid royalblue;
+    background-color: lightblue;
+    float: left;
+    width: 50%;
+    height: 220px;
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.row::after { /*Not sure whats going on here*/
+    content: " ";
+    display: table;
+    clear: both;
+}
+/*---------- END COLUMN TEMPLATE ----------*/
+
+/*---------- FOOTER ----------*/
+.footer {
+    display: block;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 60px;
+    font-weight: 900;
+}
+/*---------- END FOOTER ----------*/
+
