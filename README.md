@@ -1,6 +1,6 @@
 # HTML-and-CSS-Projects
 
-## This repository will contain some of the projects I will be working on while learning HTML and CSS.
+## This repository will contain some of the projects I will be working on utilizing HTML and CSS.
 
 A lot of these projects are going to be examples, test projects, and even final programs that can be utilized as fully functioning software. I will keep this up to date with every project I go through!
 
@@ -21,5 +21,5 @@ This project was structured mainly off of Bootstrap, this was to understand and 
 ## - My Finaly Project
 With my final project I have created a webpage that is able to be accessed publicly, this was an over all final on utilizing CSS and HTML elements.
 
-## Any remaining files were apart of learning new concepts, editing new ideas while learning through school, and attempting new ideas.
+## Any remaining files were apart of learning, creating, editing, and attempting new project ideas and new concepts through HTML and CSS.
  
